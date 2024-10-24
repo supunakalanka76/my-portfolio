@@ -11,7 +11,7 @@ function ResumeCard({title, subTitle, result, des}) {
       </div>
       <div className='w-full bg-bgBlack bg-opacity-20 hover:bg-opacity-30 duration-300 rounded-lg px-10 flex flex-col justify-center gap-10 shadow-shadowOne'>
 
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-between items-center font-poppins'>
             <div>
                 <h3 className='text-2xl font-semibold group-hover:text-white duration-300'>
                     {title}

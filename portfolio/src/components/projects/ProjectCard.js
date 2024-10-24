@@ -11,7 +11,7 @@ function ProjectCard({title, des, src}) {
             />
         </div>
 
-        <div className='w-full mt-5 flex flex-col gap-6'>
+        <div className='w-full mt-5 flex flex-col gap-6 font-poppins'>
             <div className='flex items-center justify-between'>
                 <h3 className='text-base uppercase text-designColor font-normal'>{title}</h3>
                 <div className='flex gap-2'>

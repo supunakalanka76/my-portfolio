@@ -13,7 +13,7 @@ function Resume() {
         </div>
 
         <div>
-            <ul className='w-full grid grid-cols-4'>
+            <ul className='w-full grid grid-cols-4 font-poppins'>
                 <li className='w-full h-20 bg-bgBlack  bg-opacity-25 text-xl text-gray-300 flex justify-center items-center cursor-pointer hover:bg-opacity-40 duration-300 border-[2px] rounded-none border-none'>Education</li>
                 <li className='w-full h-20 bg-bgBlack bg-opacity-25 text-xl text-gray-300 flex justify-center items-center cursor-pointer hover:bg-opacity-40 duration-300 border-[2px] rounded-none border-none'>Professional Skills</li>
                 <li className='w-full h-20 bg-bgBlack bg-opacity-25 text-xl text-gray-300 flex justify-center items-center cursor-pointer hover:bg-opacity-40 duration-300 border-[2px] rounded-none border-none'>Experience</li>
@@ -43,14 +43,14 @@ function Resume() {
 
             <ResumeCard 
                 title='General Certificate of Education (Advanced Level)'
-                subTitle='Panduwasnuwara S.W.R.D. Bandaranayake College Panduwasnuwara (2019 - 2023)'
+                subTitle='S.W.R.D. Bandaranayake College, Panduwasnuwara (2019 - 2023)'
                 result='C-3'
                 des='General Certificate of Education (Advanced Level) . The General Certificate of Education (Advanced Level) is often abbreviated as GCE A/L.'
             />
 
             <ResumeCard 
                 title='General Certificate of Education (Ordinary Level)'
-                subTitle='Panduwasnuwara S.W.R.D. Bandaranayake College Panduwasnuwara (2017 - 2019)'
+                subTitle='S.W.R.D. Bandaranayake College, Panduwasnuwara (2017 - 2019)'
                 result='A-1 B-2 C-6'
                 des='The Sri Lankan Ordinary Level (O-level) qualification in Sri Lanka, It is based on the Cambridge University Ordinary Level qualification.'
             />
