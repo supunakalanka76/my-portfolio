@@ -5,9 +5,9 @@ import {navLinksdata} from '../../constants/index.js'
 
 function Navbar() {
   return (
-    <div className='w-full h-24 mx-auto flex justify-between items-center border-b-[1px] border-b-gray-600'> 
+    <div className='w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center border-b-[1px] border-b-gray-600'> 
       <div>
-        <img src={logo} alt="logo" width='200px' />
+        <img src={logo} alt="logo" />
       </div>
       <div>
         <ul className='flex items-center gap-20'>
@@ -23,7 +23,7 @@ function Navbar() {
                         duration={500}
                         >
                           {title}</Link>
-                        <span className='absolute left-0 top-6 w-0 h-[3px] bg-designColor transition-all duration-500 group-hover:w-full'></span>
+                        <span className='absolute left-0 top-6 w-0 h-[4px] bg-designColor transition-all duration-500 group-hover:w-full'></span>
                     </li>
                 ))
             }

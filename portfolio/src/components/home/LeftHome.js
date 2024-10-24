@@ -8,7 +8,7 @@ import { RiTailwindCssFill } from 'react-icons/ri'
 function LeftHome() {
 
     const [text] = useTypewriter({
-        words: ['Professional Coder.', 'Web Developer.', 'UI Designer.'],
+        words: ['a Professional Coder.', 'a Web Developer.', 'an UI Designer.', 'a Software Developer.'],
         loop: true,
         typeSpeed: 80,
         deleteSpeed: 50,
@@ -27,7 +27,7 @@ function LeftHome() {
           </h1>
 
           <h2 className='text-4xl font-bold text-white'>
-            a{' '}<span>{text}</span>
+            {' '}<span>{text}</span>
             <Cursor 
             cursorBlinking='false'
             cursorStyle='|'
