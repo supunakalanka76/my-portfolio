@@ -21,9 +21,9 @@ function ResumeCard({title, subTitle, result, des}) {
                 </p>
             </div>
             <div>
-                <p className='w-20 h-10 text-designColor bg-bgBlack bg-opacity-25 rounded-lg flex justify-center items-center shadow-shadowOne text-sm font-medium'>
+                {/* <p className='w-20 h-10 text-designColor bg-bgBlack bg-opacity-25 rounded-lg flex justify-center items-center shadow-shadowOne text-sm font-medium'>
                     {result}
-                </p>
+                </p> */}
             </div>
         </div>
         <div>

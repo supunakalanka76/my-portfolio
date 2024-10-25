@@ -19,6 +19,13 @@ module.exports = {
       designColor: "#00ADB5",
       bgBlack: "#000000",
       white: "#FFFFFF",
+      gray: colors.gray,
+      red: colors.red,
+      green: colors.green,
+      blue: colors.blue,
+      cyan: colors.cyan,
+      black: colors.black,
+      orange: colors.orange,
     },
     boxShadow: {
       shadowOne: "10px 10px 19px #1c1e22, -10px -10px 19px #262a2e",

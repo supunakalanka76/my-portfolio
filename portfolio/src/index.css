@@ -5,6 +5,10 @@
 @tailwind utilities;
 
 @layer components{
+
+    body {
+        background-color: black;
+    }	
     .homeIcon{
         display: flex;
         font-size: 2rem;
@@ -24,7 +28,7 @@
 
     /* .bgOpacity {
         background: black;
-        opacity: 0.8;
+        opacity: 0.4;
     } */
 
     ::-webkit-scrollbar {

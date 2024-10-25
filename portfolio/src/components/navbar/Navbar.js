@@ -10,7 +10,7 @@ function Navbar() {
         <img src={logo} alt="logo" />
       </div>
       <div>
-        <ul className='flex items-center gap-20'>
+        <ul className='mr-5 flex items-center gap-20'>
             {
                 navLinksdata.map(({_id, title, link})=>(
                     <li className='text-md font-bold text-gray-400 tracking-wide cursor-pointer relative group font-poppins' key={_id}>

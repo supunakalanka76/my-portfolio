@@ -6,6 +6,7 @@ import pos from "./images/projects/POS.jpg";
 import ems from "./images/projects/EMS.png";
 import pms from "./images/projects/PMS.png";
 import event from "./images/projects/event.png";
+import contact from "./images/contact/contact.jpg";
 
 export {
     profile,
@@ -16,4 +17,5 @@ export {
     pms,
     ems,
     event,
+    contact,
  };
