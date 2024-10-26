@@ -1,12 +1,24 @@
 /* tailwind.config.cjs */
 /** @type {import('tailwindcss').Config} */
 const colors = require('tailwindcss/colors')
+const scrollbar = require('tailwind-scrollbar')
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
+      screens: {
+        xs: '320px',
+        sm: '375px',
+        sml: '500px',
+        md: '667px',
+        mdl: '768px',
+        lg: '960px',
+        lgl: '1024px',
+        xl: '1280px',
+      },
+
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
@@ -29,6 +41,18 @@ module.exports = {
     },
     boxShadow: {
       shadowOne: "10px 10px 19px #1c1e22, -10px -10px 19px #262a2e",
+    },
+
+    scrollbar: {
+      width: "10px",
+      height: "10px",
+      backgroundColor: "rgba(0, 0, 0, 0.5)",
+      borderRadius: "10px",
+      shadow: "0px 0px 5px rgba(0, 0, 0, 0.3)",
+      thumb: {
+        backgroundColor: "rgba(255, 255, 255, 0.5)",
+        borderRadius: "10px",
+      },
     },
   },
   plugins: [],

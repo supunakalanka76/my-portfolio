@@ -19,7 +19,7 @@ function Card({title, des, icon}) {
                 )}
             </div>
             <div className='flex flex-col gap-6'>
-                <h2 className='text-2xl font-poppins font-bold text-gray-200'>
+                <h2 className='md:text-xl xl:text-2xl font-poppins font-bold text-gray-200'>
                     {title}
                 </h2>
                 <p className='base'>{des}</p>

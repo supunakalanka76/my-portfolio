@@ -45,8 +45,8 @@ function ContactRight() {
     };
 
   return (
-    <div className='w-[60%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 rounded-lg p-8 shadow-shadowOne'>
-        <form className='w-full flex flex-col gap-6 py-5'>
+    <div className='w-full lgl:w-[60%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 rounded-lg p-4 lgl:p-8 shadow-shadowOne'>
+        <form className='w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5'>
             {
                 errMsg && (<p className='py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce'>{errMsg}</p>
             )}
@@ -54,13 +54,13 @@ function ContactRight() {
             {/* {
                 successMsg && (<p className='py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce'>{successMsg}</p>
             )} */}
-            <div className='w-full flex gap-10'>
-                <div className='w-1/2 flex flex-col gap-4'>
+            <div className='w-full flex flex-col lgl:flex-row gap-10'>
+                <div className='w-full lgl:w-1/2 flex flex-col gap-4'>
                     <p className='text-sm text-gray-400 uppercase tracking-wide'>Your Name:</p>
                     <input onChange={(e) => setUsername(e.target.value)} value={username} 
                     className={`w-full h-12 ${errMsg === "Please enter your name!" && "outline-designColor"} rounded-lg border-b-[1px] border-b-gray-600 bg-[#191b1e] text-lightText px-4 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300`} type="text" placeholder='Enter Your Name'/>
                 </div>
-                <div className='w-1/2 flex flex-col gap-4'>
+                <div className='w-full lgl:w-1/2 flex flex-col gap-4'>
                     <p className='text-sm text-gray-400 uppercase tracking-wide'>Phone Number:</p>
                     <input onChange={(e) => setPhoneNumber(e.target.value)} value={phoneNumber} 
                     className={`w-full h-12 ${errMsg === "Please enter your phone number!" && "outline-designColor"} rounded-lg border-b-[1px] border-b-gray-600 bg-[#191b1e] text-lightText px-4 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300`} type="text" placeholder='Enter Your Phone Number' />

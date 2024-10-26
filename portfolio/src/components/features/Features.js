@@ -10,7 +10,7 @@ function Features() {
     <section id='features' className='w-full py-20 border-b-[1px] border-b-designColor'>
 
       <Title title='Features' des='Areas of Expertise:' />
-      <div className='grid grid-cols-3 gap-20'>
+      <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20'>
         <Card 
           title="Web Development"
           des="I specialize in creating websites using HTML, CSS, and JavaScript, And frameworks like React.Js and Bootsrap. I also collaborate with developers to create responsive and user-friendlly applications."

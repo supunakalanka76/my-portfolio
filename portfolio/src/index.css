@@ -62,3 +62,7 @@
     color: #00ADB5;
     border-bottom: 3px solid #00ADB5;
 }
+
+.scrollbar::-webkit-scrollbar {
+    display: none;
+}

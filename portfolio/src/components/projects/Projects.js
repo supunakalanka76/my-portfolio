@@ -13,7 +13,7 @@ function Projects() {
         />
       </div>
 
-      <div className='grid grid-cols-3 gap-14'>
+      <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14'>
         <ProjectCard 
             title='POS SYSTEM'
             des='A POS (Point of Sale) System is a digital solution used by businesses to process sales transactions, manage inventory, and track customer data. It simplifies the payment process and enhances operational efficiency, making it an essential tool for retail and service industries.'
