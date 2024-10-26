@@ -14,7 +14,7 @@ function ContactLeft() {
         <div className='flex flex-col gap-4'>
             <h3 className='text-3xl font-bold font-poppins text-white'>Supun Akalanka</h3>
             <p className='text-lg font-normal text-gray-400'>Web & Software Developer</p>
-            <p className='text-base text-gray-400 tracking-wide'>I am a passionate software and web developer with a keen interest in designing innovative and user-friendly applications. My journey in technology has equipped me with a solid foundation in coding and design principles, allowing me to create solutions that not only meet user needs but also enhance their experience. I thrive on challenges and continually seek opportunities to learn and grow in this dynamic field.
+            <p className='text-base text-gray-400 tracking-wide'>I am a passionate software and web developer with a keen interest in designing innovative and user-friendly applications. My journey in technology has equipped me with a solid foundation in coding and design principles, allowing me to create solutions that not only meet user needs but also enhance their experience.
             </p>
             <p className='text-base text-gray-400 flex items-center gap-4'>Phone:
                 <span className='text-lightText'>(+94) 785 766 794</span>

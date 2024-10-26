@@ -7,6 +7,7 @@ import ems from "./images/projects/EMS.png";
 import pms from "./images/projects/PMS.png";
 import event from "./images/projects/event.png";
 import contact from "./images/contact/contact.jpg";
+import cv from "./pdfs/cv.pdf";
 
 export {
     profile,
@@ -18,4 +19,5 @@ export {
     ems,
     event,
     contact,
+    cv,
  };

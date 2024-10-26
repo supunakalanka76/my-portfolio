@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-scroll'
 import {FaFacebook, FaLinkedin, FaGithub} from 'react-icons/fa'
 import { FaSquareXTwitter } from 'react-icons/fa6'
-import {logo} from '../../assets/index.js'
+import {cv, logo} from '../../assets/index.js'
 
 function Footer() {
   return (
@@ -30,6 +30,14 @@ function Footer() {
                     <FaGithub />
                 </a>
             </span>
+        </div>
+        <div>
+            <a 
+            href={cv} 
+            download 
+            className='text-designColor hover:text-blue-600 duration-300'>
+                Download CV
+            </a>
         </div>
       </div>
 
