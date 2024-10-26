@@ -7,7 +7,11 @@ function Navbar() {
   return (
     <div className='w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center border-b-[1px] border-b-gray-600'> 
       <div>
-        <img src={logo} alt="logo" />
+        <img 
+        src={logo} 
+        alt="logo"
+        onClick={() => (window.location.href = 'http://localhost:3000/')} 
+        className='cursor-pointer' />
       </div>
       <div>
         <ul className='mr-5 flex items-center gap-20'>

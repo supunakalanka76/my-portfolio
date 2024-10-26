@@ -16,7 +16,9 @@ function ProjectCard({title, des, src}) {
                 <h3 className='text-base uppercase text-designColor font-normal'>{title}</h3>
                 <div className='flex gap-2'>
                     <span className='text-lg w-10 h-10 rounded-full bg-bgBlack inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer'>
-                        <FaGithub />
+                        <a href='https://github.com/supunakalanka76' target='_blank' rel='noopener noreferrer'>
+                            <FaGithub />
+                        </a>
                     </span>
                     <span className='text-lg w-10 h-10 rounded-full bg-bgBlack inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer'>
                         <FaGlobe />

@@ -7,7 +7,7 @@ import Card from './Card'
 
 function Features() {
   return (
-    <section id='features' className='w-full py-20 border-b-[1px] border-b-bgBlack'>
+    <section id='features' className='w-full py-20 border-b-[1px] border-b-designColor'>
 
       <Title title='Features' des='Areas of Expertise:' />
       <div className='grid grid-cols-3 gap-20'>

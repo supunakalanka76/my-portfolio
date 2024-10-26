@@ -26,6 +26,23 @@
         color: #00ADB5;
     }
 
+    .footerIcon{
+        display: flex;
+        font-size: 1.5rem;
+        opacity: 25;
+        justify-content: center;
+        cursor: pointer;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .footerIcon:hover {
+        opacity: 50;
+        transition: opacity 0.3s ease-in-out;
+        transform: scale(1.1);
+        color: #00ADB5;
+    }
+
     /* .bgOpacity {
         background: black;
         opacity: 0.4;

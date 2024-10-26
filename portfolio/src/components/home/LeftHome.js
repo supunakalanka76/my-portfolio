@@ -47,16 +47,24 @@ function LeftHome() {
           </h2>
           <div className='flex gap-4'>
             <span className='homeIcon'>
-              <FaFacebook />
+              <a href='https://www.facebook.com/supunakalanka76' target='_blank' rel='noopener noreferrer'>
+                  <FaFacebook />
+              </a>
             </span>
             <span className='homeIcon'>
-              <FaSquareXTwitter />
+              <a href='https://x.com/Supunakalanka76' target='_blank' rel='noopener noreferrer'>
+                  <FaSquareXTwitter />
+              </a>
             </span>
             <span className='homeIcon'>
-              <FaLinkedin />
+              <a href='https://www.linkedin.com/in/supun-akalanka-420203294/' target='_blank' rel='noopener noreferrer'>
+                  <FaLinkedin />
+              </a>
             </span>
             <span className='homeIcon'>
-              <FaGithub />
+              <a href='https://github.com/supunakalanka76' target='_blank' rel='noopener noreferrer'>
+                  <FaGithub />
+              </a>
             </span>
           </div>
         </div>
@@ -67,22 +75,39 @@ function LeftHome() {
           </h2>
           <div className='flex gap-4'>
             <span className='homeIcon'>
-              <FaReact />
+              <a href='https://react.dev/' target='_blank' rel='noopener noreferrer'>
+                <FaReact />
+              </a>
             </span>
+
             <span className='homeIcon'>
-              <FaHtml5 />
+              <a href='https://www.w3.org/TR/2011/WD-html5-20110405/index.html' target='_blank' rel='noopener noreferrer'>
+                <FaHtml5 />
+              </a>
             </span>
+
             <span className='homeIcon'>
-              <FaCss3 />
+              <a href='https://www.w3.org/Style/CSS/Overview.en.html' target='_blank' rel='noopener noreferrer'>
+                <FaCss3 />
+              </a>
             </span>
+
             <span className='homeIcon'>
-              <FaLaravel />
+              <a href='https://laravel.com/' target='_blank' rel='noopener noreferrer'>
+                <FaLaravel />
+              </a>
             </span>
+
             <span className='homeIcon'>
-              <FaFigma />
+              <a href='https://www.figma.com/' target='_blank' rel='noopener noreferrer'>
+                <FaFigma />
+              </a>
             </span>
+
             <span className='homeIcon'>
-              <RiTailwindCssFill />
+              <a href='https://tailwindcss.com/' target='_blank' rel='noopener noreferrer'>
+                <RiTailwindCssFill />
+              </a>
             </span>
           </div>
         </div>
