@@ -9,7 +9,7 @@ import {cv} from '../../assets/index.js'
 function LeftHome() {
 
     const [text] = useTypewriter({
-        words: ['a Professional Coder.', 'a Web Developer.', 'an UI Designer.', 'a Software Developer.'],
+        words: ['UI Designer.', 'Software Developer.', 'Professional Coder.', 'Web Developer and Designer.'],
         loop: true,
         typeSpeed: 80,
         deleteSpeed: 50,
@@ -28,7 +28,7 @@ function LeftHome() {
           </h1>
 
           <h2 className='text-4xl font-bold text-white'>
-            {' '}<span>{text}</span>
+            a <span>{text}</span>
             <Cursor 
             cursorBlinking='false'
             cursorStyle='|'
@@ -37,7 +37,7 @@ function LeftHome() {
             </Cursor>
           </h2>
 
-            <p className='text-base font-poppins leading-6 tracking-wide'>
+            <p className='text-base font-poppins leading-7 tracking-wide text-justify'>
               I am a passionate software and web developer with a keen interest in designing innovative and user-friendly applications. My journey in technology has equipped me with a solid foundation in coding and design principles, allowing me to create solutions that not only meet user needs but also enhance their experience. I thrive on challenges and continually seek opportunities to learn and grow in this dynamic field.
             </p>
 
@@ -47,7 +47,7 @@ function LeftHome() {
                 href={cv} 
                 download 
                 className='text-designColor hover:text-blue-600 duration-300'>
-                  <button className='w-[30%] h-12 rounded-full bg-gray-200 text-sm font-bold text-designColor tracking-wide uppercase hover:text-black duration-300 hover:bg-designColor'>Download CV</button>
+                  <button className='w-[35%] h-12 rounded-3xl bg-gray-200 text-sm font-bold text-designColor tracking-wide uppercase hover:text-black duration-300 hover:bg-designColor'>Download CV</button>
                 </a>
               </div>
             </div>

@@ -69,7 +69,7 @@ function Footer() {
         </ul>
       </div>
       <div className='w-full h-full'>
-        <h3 className='text-xl uppercase text-designColor tracking-wider'>Resouses:</h3>
+        <h3 className='text-xl uppercase text-designColor tracking-wider'>Resources:</h3>
         <ul className='flex flex-col gap-4 font-montserrat font-medium overflow-hidden py-6'>
             <li>
                 <span className='w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group'>Authentication<span className='absolute h-[1px] w-full inline-flex bg-designColor -bottom-1 left-0 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300'></span></span>

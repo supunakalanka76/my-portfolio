@@ -188,7 +188,7 @@ function ContactRight() {
                     <textarea onChange={(e) => setMessage(e.target.value)} value={message} className={`w-full ${errMsg === "Please type your message!" && "outline-designColor"} rounded-lg border-b-[1px] border-b-gray-600 bg-[#191b1e] text-lightText px-4 py-2 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300 resize-none`} cols="30" rows="10" placeholder='Enter Your Massege Here...'></textarea>
                 </div>
                 <div className='w-full'>
-                    <button onClick={handleSend} className='w-full h-12 rounded-lg bg-bgBlack text-base font-bold text-gray-100 tracking-wide uppercase hover:text-black duration-300 hover:bg-designColor'>Send It Now</button>
+                    <button onClick={handleSend} className='w-full h-12 rounded-lg bg-gray-600 text-sm font-bold text-designColor tracking-wide uppercase hover:text-black duration-300 hover:bg-designColor'>Send It Now</button>
                 </div>
                     {/* {
                         errMsg && (<p className='py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce'>{errMsg}</p>

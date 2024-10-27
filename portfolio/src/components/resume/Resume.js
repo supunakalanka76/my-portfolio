@@ -17,7 +17,7 @@ function Resume() {
         <div className='flex justify-center items-center text-center'>
             <Title
                 title='Professional Experience'
-                des='My Resume:'
+                des='My Resume'
             />
         </div>
 

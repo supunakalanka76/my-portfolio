@@ -9,7 +9,7 @@ function Projects() {
       <div className='flex justify-center items-center text-center'>
         <Title
             title='Check Out My Work and Leave Your Feedback.'
-            des='My Projects:'
+            des='My Projects'
         />
       </div>
 

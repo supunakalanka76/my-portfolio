@@ -40,7 +40,7 @@ function Navbar() {
                 ))
             }
         </ul>
-        <span onClick={() => setShowMenu(!showMenu)} className='text-3xl mdl:hidden w-20 h-20 inline-flex items-center justify-center text-designColor cursor-pointer'>
+        <span onClick={() => setShowMenu(!showMenu)} className='text-3xl mdl:hidden w-20 h-20 inline-flex items-center justify-center text-designColor cursor-pointer -mr-10'>
           <FiMenu />
         </span>
         {
@@ -97,7 +97,7 @@ function Navbar() {
                       </span>
                     </div>
                   </div>
-                <span onClick={() => setShowMenu(false)} className='absolute top-4 right-4 text-gray-400 hover:text-designColor duration-300 text-2xl cursor-pointer'>
+                <span onClick={() => setShowMenu(false)} className='absolute top-4 right-4 text-gray-400 hover:text-designColor duration-300 text-3xl cursor-pointer'>
                   <MdClose />
                 </span>
               </div>
