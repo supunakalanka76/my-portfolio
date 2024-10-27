@@ -185,7 +185,7 @@ function ContactRight() {
                 </div>
                 <div className='flex flex-col gap-4'>
                     <p className='text-sm text-gray-400 uppercase tracking-wide'>Message:</p>
-                    <textarea onChange={(e) => setMessage(e.target.value)} value={message} className={`w-full ${errMsg === "Please type your message!" && "outline-designColor"} rounded-lg border-b-[1px] border-b-gray-600 bg-[#191b1e] text-lightText px-4 py-2 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300 resize-none`} cols="30" rows="11" placeholder='Enter Your Massege Here...'></textarea>
+                    <textarea onChange={(e) => setMessage(e.target.value)} value={message} className={`w-full ${errMsg === "Please type your message!" && "outline-designColor"} rounded-lg border-b-[1px] border-b-gray-600 bg-[#191b1e] text-lightText px-4 py-2 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300 resize-none`} cols="30" rows="10" placeholder='Enter Your Massege Here...'></textarea>
                 </div>
                 <div className='w-full'>
                     <button onClick={handleSend} className='w-full h-12 rounded-lg bg-bgBlack text-base font-bold text-gray-100 tracking-wide uppercase hover:text-black duration-300 hover:bg-designColor'>Send It Now</button>

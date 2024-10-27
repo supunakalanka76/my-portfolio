@@ -13,7 +13,7 @@ function Resume() {
     const [achievementData, setAchievementData] = useState(false);
 
   return (
-    <section id='resume' className='w-full py-20 border-b-[1px] border-b-designColor'>
+    <section id='resume' className='w-full pl-10 pr-10 py-20 border-b-[1px] border-b-designColor'>
         <div className='flex justify-center items-center text-center'>
             <Title
                 title='Professional Experience'

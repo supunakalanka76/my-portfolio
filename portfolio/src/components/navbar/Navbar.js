@@ -13,7 +13,7 @@ function Navbar() {
   console.log(showMenu)
 
   return (
-    <div className='w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center border-b-[1px] border-b-gray-600'> 
+    <div className='w-[100%] p-10 h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center border-b-[1px] border-b-gray-600'> 
       <div>
         <img 
         src={logo} 

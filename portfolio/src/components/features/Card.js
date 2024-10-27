@@ -22,7 +22,7 @@ function Card({title, des, icon}) {
                 <h2 className='md:text-xl xl:text-2xl font-poppins font-bold text-gray-200'>
                     {title}
                 </h2>
-                <p className='base'>{des}</p>
+                <p className='base lgl:pt-0 pt-5'>{des}</p>
                 <span className='text-2xl text-designColor'>
                     <FaArrowCircleRight />
                 </span>

@@ -11,7 +11,7 @@ import FooterBottom from './components/footer/FooterBottom';
 function App() {
   return (
     <div className='w-full h-auto bg-bodyColor text-lightText'>
-      <div className='max-w-screen-xl mx-auto'>
+      <div className='w-[95%] mx-auto'>
         <Navbar />
         <Home />
         <Features />

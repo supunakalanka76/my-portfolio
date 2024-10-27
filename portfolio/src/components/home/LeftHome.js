@@ -4,6 +4,7 @@ import {FaFacebook, FaLinkedin, FaGithub} from 'react-icons/fa'
 import { FaSquareXTwitter } from "react-icons/fa6"
 import {FaReact, FaHtml5, FaCss3, FaLaravel, FaFigma,} from 'react-icons/fa'
 import { RiTailwindCssFill } from 'react-icons/ri'
+import {cv} from '../../assets/index.js'
 
 function LeftHome() {
 
@@ -39,10 +40,45 @@ function LeftHome() {
             <p className='text-base font-poppins leading-6 tracking-wide'>
               I am a passionate software and web developer with a keen interest in designing innovative and user-friendly applications. My journey in technology has equipped me with a solid foundation in coding and design principles, allowing me to create solutions that not only meet user needs but also enhance their experience. I thrive on challenges and continually seek opportunities to learn and grow in this dynamic field.
             </p>
+
+            <div>
+              <div className='pt-8'>
+                <a 
+                href={cv} 
+                download 
+                className='text-designColor hover:text-blue-600 duration-300'>
+                  <button className='w-[30%] h-12 rounded-full bg-gray-200 text-sm font-bold text-designColor tracking-wide uppercase hover:text-black duration-300 hover:bg-designColor'>Download CV</button>
+                </a>
+              </div>
+            </div>
+
+            <div className='flex flex-col xl:flex-row lgl:gap-8 justify-items-start'>
+              <div className='w-[70%]'>
+                <h2 className='text-base uppercase font-poppins text-designColor mb-4 pt-10'>
+                  Personal Information:
+                </h2>
+                <div className=' flex flex-col gap-4'>
+                  <p>Name: <span>Supun Akalanka</span></p>
+                  <p>Birth Day: <span>29<sup>th</sup> March 2003</span></p>
+                  <p>Phone: <span>(+94) 785 766 794</span></p>
+                  <p>Address: <span>Kurunegala</span></p>
+                </div>
+              </div>
+
+              <div>
+                <div className='flex flex-col pt-14 gap-4'>
+                  <p>Email: <span>supunakalanka76@gmail.com</span></p>
+                  <p>Degree: <span>BEng (Hons) in Software Engineering (TOP UP)</span></p>
+                  <p>Experience: <span>2 Years</span></p>
+                  <p>Freelance: <span>Available</span></p>
+                </div>
+              </div>
+            </div>
         </div>
+
         <div className='flex flex-col xl:flex-row gap-6 lgl:gap-8 justify-between'>
         <div>
-          <h2 className='text-base uppercase font-poppins mb-4'>
+          <h2 className='text-base uppercase font-poppins text-designColor mb-4'>
             Connect with Me On:
           </h2>
           <div className='flex gap-4'>
@@ -69,8 +105,8 @@ function LeftHome() {
           </div>
         </div>
 
-        <div>
-        <h2 className='text-base uppercase font-poppins mb-4'>
+        <div className='lgl:ml-20 ml-0'>
+        <h2 className='text-base uppercase font-poppins text-designColor mb-4'>
         Key Skills:
           </h2>
           <div className='flex gap-4'>

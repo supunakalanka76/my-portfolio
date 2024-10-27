@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaFacebook, FaLinkedin, FaGithub} from 'react-icons/fa'
+import {FaFacebook, FaInstagram, FaLinkedin, FaGithub} from 'react-icons/fa'
 import { FaSquareXTwitter } from 'react-icons/fa6'
 
 function FooterBottom() {
@@ -29,6 +29,11 @@ function FooterBottom() {
                 <span className='footerIcon'>
                     <a href='https://github.com/supunakalanka76' target='_blank' rel='noopener noreferrer'>
                         <FaGithub />
+                    </a>
+                </span>
+                <span className='footerIcon'>
+                    <a href='https://www.instagram.com/supun_akalanka7/' target='_blank' rel='noopener noreferrer'>
+                        <FaInstagram />
                     </a>
                 </span>
             </div>
