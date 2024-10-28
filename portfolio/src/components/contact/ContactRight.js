@@ -165,12 +165,12 @@ function ContactRight() {
                     <input onChange={handleEmailChange} value={email} 
                     className={`w-full h-12 ${errMsg === "Please enter your email!" && "outline-designColor"} rounded-lg border-b-[1px] border-b-gray-600 bg-[#191b1e] text-lightText px-4 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300`} type="email" placeholder='Enter Your Email Address'/>
                     {suggestions.length > 0 && (
-                        <ul className="suggestions-list absolute bg-[#191b1e] w-full mt-1 rounded-md shadow-lg">
+                        <ul className="suggestions-list absolute bg-[#191b1e] w-auto -mt-1 rounded-lg shadow-lg">
                             {suggestions.map((suggestion, index) => (
                                 <li 
                                     key={index} 
                                     onClick={() => handleSuggestionClick(suggestion)} 
-                                    className="cursor-pointer px-4 py-2 hover:bg-gray-700"
+                                    className="cursor-pointer px-4 py-2 hover:bg-gray-700 rounded-lg"
                                 >
                                     {suggestion}
                                 </li>
