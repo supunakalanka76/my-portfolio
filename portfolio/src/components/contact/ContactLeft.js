@@ -1,6 +1,6 @@
 import React from 'react'
-import {FaFacebook, FaLinkedin, FaGithub} from 'react-icons/fa'
-import { FaSquareXTwitter } from 'react-icons/fa6'
+import {FaLinkedin, FaGithub} from 'react-icons/fa'
+// import { FaSquareXTwitter } from 'react-icons/fa6'
 import { contact } from '../../assets'
 
 function ContactLeft() {
@@ -29,16 +29,6 @@ function ContactLeft() {
                 Find Me in:
             </h2>
             <div className='flex gap-4'>
-                <span className='homeIcon'>
-                    <a href='https://www.facebook.com/supunakalanka76' target='_blank' rel='noopener noreferrer'>
-                        <FaFacebook />
-                    </a>
-                </span>
-                <span className='homeIcon'>
-                    <a href='https://x.com/Supunakalanka76' target='_blank' rel='noopener noreferrer'>
-                        <FaSquareXTwitter />
-                    </a>
-                </span>
                 <span className='homeIcon'>
                     <a href='https://www.linkedin.com/in/supun-akalanka-420203294/' target='_blank' rel='noopener noreferrer'>
                         <FaLinkedin />
