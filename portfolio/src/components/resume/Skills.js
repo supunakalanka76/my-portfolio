@@ -9,7 +9,7 @@ function Skills() {
         animate={{opacity:1, transition:{duration:0.5}}}
         className='w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20'>
         <div className='w-full lgl:w-1/2'>
-        <div className='mt-10 py-10 font-poppins'>
+        <div className='mt-10 py-6 font-poppins'>
             <p className='text-sm text-designColor tracking-[4px]'>Features</p>
             <h2 className='text-3xl md:text-4xl font-bold'>Design Expertise</h2>
         </div>
@@ -79,7 +79,7 @@ function Skills() {
         </div>
         
         <div className='w-full lgl:w-1/2'>
-            <div className='mt-10 py-10 font-poppins'>
+            <div className='mt-10 py-6 font-poppins'>
                 <p className='text-sm text-designColor tracking-[4px]'>Features</p>
                 <h2 className='text-3xl md:text-4xl font-bold'>Development Expertise</h2>
             </div>

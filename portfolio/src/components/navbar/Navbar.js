@@ -45,7 +45,7 @@ function Navbar() {
         </span>
         {
           showMenu && (
-            <div className='w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide'>
+            <div className='w-[80%] h-screen overflow-scroll absolute top-0 -right-3 bg-gray-900 p-4 scrollbar-hide transition-transform'>
               <div className='flex flex-col gap-8 py-2 relative'>
                 <div>
                   <img className='w-32' src={logo} alt="logo" />

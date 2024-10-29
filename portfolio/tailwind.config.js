@@ -8,6 +8,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        bounce: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-15%)' },
+        },
+      },
       screens: {
         xs: '320px',
         sm: '375px',
@@ -54,6 +60,9 @@ module.exports = {
         backgroundColor: "rgba(255, 255, 255, 0.5)",
         borderRadius: "10px",
       },
+    },
+    animation: {
+      bounce: "bounce 2s infinite",
     },
   },
   plugins: [],

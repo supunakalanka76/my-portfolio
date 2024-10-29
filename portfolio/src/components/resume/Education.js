@@ -51,7 +51,7 @@ function Education() {
                     <h2 className='text-3xl md:text-4xl font-bold'>Job Excellence</h2>
                 </div>
 
-                <div className='lgl:mt-14 w-full h-[1000px] border-l-[6px] border-bgBlack border-opacity-30 flex flex-col gap-10'>
+                <div className='lgl:mt-14 mb-10 w-full h-[1000px] border-l-[6px] border-bgBlack border-opacity-30 flex flex-col gap-10'>
                 <ResumeCard 
                     title='BEng (Hons) in Software Engineering (TOP UP)'
                     subTitle='London Metropolitan University - UK (2025 - 2026)'

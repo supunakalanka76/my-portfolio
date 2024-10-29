@@ -9,6 +9,7 @@ import Footer from './components/footer/Footer';
 import FooterBottom from './components/footer/FooterBottom';
 
 function App() {
+
   return (
     <div className='w-full h-auto bg-bodyColor text-lightText'>
       <div className='w-[95%] mx-auto'>
