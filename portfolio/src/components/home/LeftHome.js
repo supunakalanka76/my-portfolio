@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import {FaLinkedin, FaGithub} from 'react-icons/fa'
-import {FaReact, FaHtml5, FaCss3, FaLaravel, FaFigma,} from 'react-icons/fa'
+import {FaReact, FaHtml5, FaCss3, FaFigma,} from 'react-icons/fa'
 import { RiTailwindCssFill } from 'react-icons/ri'
 import {cv} from '../../assets/index.js'
 
@@ -117,11 +117,11 @@ function LeftHome() {
               </a>
             </span>
 
-            <span className='homeIcon'>
+            {/* <span className='homeIcon'>
               <a href='https://laravel.com/' target='_blank' rel='noopener noreferrer'>
                 <FaLaravel />
               </a>
-            </span>
+            </span> */}
 
             <span className='homeIcon'>
               <a href='https://www.figma.com/' target='_blank' rel='noopener noreferrer'>

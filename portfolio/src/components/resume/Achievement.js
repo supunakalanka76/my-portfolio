@@ -7,7 +7,7 @@ function Achievement() {
     <motion.div 
         initial={{opacity:0}} 
         animate={{opacity:1, transition:{duration:0.5}}} 
-        className='w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20'>
+        className='w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20 pb-10'>
         <div>
         <div className='mt-10 py-6 lgl:py-12 font-poppins'>
             <p className='text-sm text-designColor tracking-[4px]'>Features</p>
