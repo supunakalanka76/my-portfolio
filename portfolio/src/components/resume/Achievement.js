@@ -15,18 +15,12 @@ function Achievement() {
         </div>
 
         <div className='mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-bgBlack border-opacity-30 flex flex-col gap-10'>
-            <ResumeCard 
-                title='BEng (Hons) in Software Engineering (TOP UP)'
-                subTitle='London Metropolitan University - UK (2025 - 2026)'
-                result=''
-                des='Bachelor of Engineering in Software Engineering with specialization in Computer Science and Software Engineering.'
-            />
 
             <ResumeCard 
-                title='BTEC Level 5 HND in Computing Software Engineering'
-                subTitle='Pearson University - UK (2023 - 2024)'
-                result=''
-                des='BTEC Level 5 Higher National Diploma in Computing specialization in Software Engineering'
+                title='Advanced Certificate in Spoken English'
+                subTitle='Britishway English Academy - Kurunegala (2023 Feb - 2023 May)'
+                result='Merit'
+                des='Advanced Certificate in Spoken English'
             />
 
             <ResumeCard 
@@ -45,7 +39,7 @@ function Achievement() {
         </div>
         </div>
         <div>
-            <div>
+            {/* <div>
                 <div className='mt-10 py-20 lgl:py-12 font-poppins'>
                     <p className='text-sm text-designColor tracking-[4px]'>Features</p>
                     <h2 className='text-3xl md:text-4xl font-bold'>Career Achievements</h2>
@@ -80,7 +74,7 @@ function Achievement() {
                     des='The Sri Lankan Ordinary Level (O-level) qualification in Sri Lanka, It is based on the Cambridge University Ordinary Level qualification.'
                 />
                 </div>
-            </div>
+            </div> */}
         </div>
     </motion.div>
   )

@@ -30,6 +30,13 @@ function Education() {
             />
 
             <ResumeCard 
+                title='Advanced Certificate in Spoken English'
+                subTitle='Britishway English Academy - Kurunegala (2023)'
+                result='Merit'
+                des='Advanced Certificate in Spoken English'
+            />
+
+            <ResumeCard 
                 title='General Certificate of Education (Advanced Level)'
                 subTitle='S.W.R.D. Bandaranayake College, Panduwasnuwara (2019 - 2023)'
                 result='C-3'
@@ -39,13 +46,13 @@ function Education() {
             <ResumeCard 
                 title='General Certificate of Education (Ordinary Level)'
                 subTitle='S.W.R.D. Bandaranayake College, Panduwasnuwara (2017 - 2019)'
-                result='A-1 B-2 C-6'
+                result=''
                 des='The Sri Lankan Ordinary Level (O-level) qualification in Sri Lanka, It is based on the Cambridge University Ordinary Level qualification.'
             />
         </div>
         </div>
         <div>
-            <div>
+            {/* <div>
                 <div className='mt-6 py-20 lgl:py-12 font-poppins'>
                     <p className='text-sm text-designColor tracking-[4px]'>2019 - Current</p>
                     <h2 className='text-3xl md:text-4xl font-bold'>Job Excellence</h2>
@@ -80,7 +87,7 @@ function Education() {
                     des='The Sri Lankan Ordinary Level (O-level) qualification in Sri Lanka, It is based on the Cambridge University Ordinary Level qualification.'
                 />
                 </div>
-            </div>
+            </div> */}
         </div>
     </motion.div>
   )

@@ -18,7 +18,10 @@ function Navbar() {
         <img 
         src={logo} 
         alt="logo"
-        onClick={() => (window.location.href = 'http://localhost:3000/')} 
+        onClick={() => {
+          window.location.href = 'home';
+          window.location.reload();
+        }} 
         className='cursor-pointer' />
       </div>
       <div>

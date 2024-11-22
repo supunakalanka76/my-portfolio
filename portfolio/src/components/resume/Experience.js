@@ -14,7 +14,7 @@ function Experience() {
             <h2 className='text-3xl md:text-4xl font-bold'>Job Experience</h2>
         </div>
 
-        <div className='mt-6 mb-10 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-bgBlack border-opacity-30 flex flex-col gap-10'>
+        {/* <div className='mt-6 mb-10 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-bgBlack border-opacity-30 flex flex-col gap-10'>
             <ResumeCard 
                 title='BEng (Hons) in Software Engineering (TOP UP)'
                 subTitle='London Metropolitan University - UK (2025 - 2026)'
@@ -42,7 +42,7 @@ function Experience() {
                 result='A-1 B-2 C-6'
                 des='The Sri Lankan Ordinary Level (O-level) qualification in Sri Lanka, It is based on the Cambridge University Ordinary Level qualification.'
             />
-        </div>
+        </div> */}
         </div>
     </motion.div>
   )

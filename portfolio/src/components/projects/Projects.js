@@ -34,8 +34,8 @@ function Projects() {
             des='An Event Reminder is a notification tool that alerts users about upcoming events or deadlines, helping them stay organized and ensuring they don’t miss important dates.'
             src={event}
         />
-        <ProjectCard />
-        <ProjectCard />
+        {/* <ProjectCard />
+        <ProjectCard /> */}
       </div>
     </section>
   )
