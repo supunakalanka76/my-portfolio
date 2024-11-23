@@ -8,7 +8,9 @@ function Footer() {
   return (
     <div className='w-full pl-20 pr-10 py-20 h-auto border-b-[1px] border-b-designColor grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8'>
       <div className='w-full h-full flex flex-col gap-8'>
-        <img className='lgl:mt-28 w-32' src={logo} alt="logo" />
+        <Link to='home' spy={true} smooth={true} offset={-70} duration={500}>
+            <img src={logo} alt='logo'className='lgl:mt-28 w-32 cursor-pointer' />
+        </Link>
         {/* <div className='flex gap-4'>
             <span className='homeIcon'>
                 <a href='https://www.facebook.com/supunakalanka76' target='_blank' rel='noopener noreferrer'>

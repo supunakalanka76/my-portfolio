@@ -15,14 +15,18 @@ function Navbar() {
   return (
     <div className='w-[100%] p-10 h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center border-b-[3px] border-b-gray-600'> 
       <div>
-        <img 
+        <Link to='home' spy={true} smooth={true} offset={-70} duration={500}>
+          <img src={logo} alt='logo'
+          className='cursor-pointer' />
+        </Link>
+        {/* <img 
         src={logo} 
         alt="logo"
         onClick={() => {
-          window.location.href = 'home';
+          window.location.href = '';
           window.location.reload();
         }} 
-        className='cursor-pointer' />
+        className='cursor-pointer' /> */}
       </div>
       <div>
         <ul className='hidden mdl:inline-flex items-center gap-6 lg:gap-20'>
